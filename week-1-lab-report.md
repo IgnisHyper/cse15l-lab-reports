@@ -8,5 +8,3 @@ To install visual studio code, I had to go to this [link](https://code.visualstu
 
 ## Step 4 - Remote Connection
 
-***
-## Installing VSCode
