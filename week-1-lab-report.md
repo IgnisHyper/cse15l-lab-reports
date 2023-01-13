@@ -1,11 +1,12 @@
 # Week 1 Lab Report - Abel Preciado
 ***
-## Getting Your CSE 15L Account Username
-As a student in CSE 15L, you have a course-specific account given to you for this class. This account is **needed** to remotely connect to the computers located in the CSE basement and run various commands (which we will do later). Follow the following steps to get your account:
-1. Go to this [link](https://sdacs.ucsd.edu/~icc/index.php) and enter your student username and ID.
-2. You should see a page that looks something like this:
+## Step 2 - Getting My CSE 15L Account Username
+In order to get my CSE 15L account, I proceeded to this [link](https://sdacs.ucsd.edu/~icc/index.php), which listed out the course-specific username and allowed me to access and reset the password so that I had complete access. 
 
-    This is testing text
-3. Click the button under "Additional Accounts" that is labeled for this class (it starts with "cse15l" + the quarter you are taking the class).
+## Step 3 - Installing Visual Studio Code
+To install visual studio code, I had to go to this [link](https://code.visualstudio.com/) which would allow me to install the correct version for my laptop. I had already done this before, so I didn't need to install it at the time.
+
+## Step 4 - Remote Connection
+
 ***
 ## Installing VSCode
