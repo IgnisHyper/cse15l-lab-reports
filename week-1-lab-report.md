@@ -40,8 +40,16 @@ I also ran `pwd` to see where I was on the system, which returned me with the ab
 
 Image Placeholder
 
+To make a new directory, I used the `mkdir hello` command. After running that command, I checked to see if the directory was created with the `ls` command, which I could see was the case:
+
+Image Placeholder
+
+I also tried making a new directory on a terminal that wasn't remotely connected to another computer. In this case, I created the directory on my personal laptop, which I could see in my File Explorer:
+
+Image Placeholder
+
 To finish my exploration of commands, I ran the command `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`, which allowed me to copy a file to my personal directory. I read the file two different ways, first by runnning `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` and then `cat hello.txt`. Both resulted in the same text being printed, since they were the same file just in different places. 
 
 Image Placeholder
 
-
+I logged off with `Ctrl + d` to exit the remote session.
