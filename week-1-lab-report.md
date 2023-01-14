@@ -15,12 +15,12 @@ Since I was working on a Windows laptop, I first had to install git before I cou
 
 Image Placeholder
 
-where I clicked the blue "Download" button to get the installer. After running the downloaded file and keeping all settings to their default selection, I had successfully installed git! Next, I had to set VS Code to use Bash as the default for terminal windows since that was the only way I could remotely connect. I opened VS Code and hit `Control + Shift + P` at the same time to get this menu to open at the top of my tab:
+where I clicked the blue "Download" button to get the installer. After running the downloaded file and keeping all settings to their default selection, I had successfully installed git! Next, I had to set VS Code to use Bash as the default for terminal windows since that was the only way I could remotely connect. I opened VS Code and hit `Ctrl + Shift + P` at the same time to get this menu to open at the top of my tab:
 
 Image Placeholder
 
-Into this menu, I typed "Select Default Profile" and selected it. It opened another menu that looked like this:
+In this menu, I typed "Select Default Profile" and selected it. It opened another menu that looked like this:
 
 Image Placeholder
 
-I selected "Git Bash" in order to tell VS Code to default to that setting whenever I opened a new terminal window.
+I selected "Git Bash" in order to tell VS Code to default to that setting whenever I opened a new terminal window. Now that I had set Bash to be my default terminal, I was ready to remotely connect to a CSE computer. I opened a new terminal using `Ctrl + \``
