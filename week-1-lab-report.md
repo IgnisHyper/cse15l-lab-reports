@@ -23,4 +23,13 @@ In this menu, I typed "Select Default Profile" and selected it. It opened anothe
 
 Image Placeholder
 
-I selected "Git Bash" in order to tell VS Code to default to that setting whenever I opened a new terminal window. Now that I had set Bash to be my default terminal, I was ready to remotely connect to a CSE computer. I opened a new terminal using `` Ctrl + \` ``
+I selected "Git Bash" in order to tell VS Code to default to that setting whenever I opened a new terminal window. Now that I had set Bash to be my default terminal, I was ready to remotely connect to a CSE computer. I opened a new terminal using `` Ctrl + ` `` in VS Code. I confirmed that I had setup Bash correctly by looking at the first line of the terminal along with looking to see the type of terminal window by looking in the top right corner. 
+
+Image Placeholder
+
+I then proceeded to type `ssh cs15lwi23awg@ieng6.ucsd.edu` into the terminal and hit enter. After a bit, it asked me if I wanted to trust the connection, which I did by typing `yes` and hitting enter. It then asked me for my password which after typing in (note: nothing will show up when typing in your password") allowed me to connect successfully as seen below:
+
+Image Placeholder
+
+## Running Commands
+
