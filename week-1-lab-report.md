@@ -23,4 +23,4 @@ In this menu, I typed "Select Default Profile" and selected it. It opened anothe
 
 Image Placeholder
 
-I selected "Git Bash" in order to tell VS Code to default to that setting whenever I opened a new terminal window. Now that I had set Bash to be my default terminal, I was ready to remotely connect to a CSE computer. I opened a new terminal using `Ctrl + \` `
+I selected "Git Bash" in order to tell VS Code to default to that setting whenever I opened a new terminal window. Now that I had set Bash to be my default terminal, I was ready to remotely connect to a CSE computer. I opened a new terminal using `` Ctrl + \` ``
