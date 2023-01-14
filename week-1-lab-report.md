@@ -32,4 +32,16 @@ I then proceeded to type `ssh cs15lwi23awg@ieng6.ucsd.edu` into the terminal and
 Image Placeholder
 
 ## Running Commands
+After successfully connecting, I decided to run the `ls` command so that I could see everything in the current directory. I was met with only one item:
+
+Image Placeholder
+
+I also ran `pwd` to see where I was on the system, which returned me with the absolute path `/home/linux/ieng6/cs15lwi23/cs15lwi23awg`. I also ran `ls -lat` and `ls -a` to see the differences between those two commands and the standard `ls` command:
+
+Image Placeholder
+
+To finish my exploration of commands, I ran the command `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`, which allowed me to copy a file to my personal directory. I read the file two different ways, first by runnning `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` and then `cat hello.txt`. Both resulted in the same text being printed, since they were the same file just in different places. 
+
+Image Placeholder
+
 
