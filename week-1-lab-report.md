@@ -4,11 +4,9 @@
 In order to get my CSE 15L account, I proceeded to this [link](https://sdacs.ucsd.edu/~icc/index.php). After logging in with my username and PID, the site listed out my CSE 15L account under "Additional Accounts". After setting the password for the account by clicking on the account name and using the Global Password Change tool, I had full access to my CSE 15L account.
 
 ## Installing Visual Studio Code (VS Code)
-To install visual studio code, I had to go to this [link](https://code.visualstudio.com/) which would allow me to install the correct version for my laptop. 
+To install visual studio code, I had to go to this [link](https://code.visualstudio.com/) which would allow me to install the correct version for my laptop. I had already done this before, so I didn't need to install it at the time. I opened up VS Code from my desktop just to confirm that I still had it installed correctly.
 
-Image Placeholder
-
-I had already done this before, so I didn't need to install it at the time.
+![Image](week1images/vscode-open.png)
 
 ## Remote Connection
 Since I was working on a Windows laptop, I first had to install git before I could try to remotely connect to any computer. I went to this [link](https://gitforwindows.org/):
@@ -27,7 +25,7 @@ I selected "Git Bash" in order to tell VS Code to default to that setting whenev
 
 Image Placeholder
 
-I then proceeded to type `ssh cs15lwi23awg@ieng6.ucsd.edu` into the terminal and hit enter. After a bit, it asked me if I wanted to trust the connection, which I did by typing `yes` and hitting enter. It then asked me for my password which after typing in (note: nothing will show up when typing in your password") allowed me to connect successfully as seen below:
+I then proceeded to type `ssh cs15lwi23awg@ieng6.ucsd.edu` into the terminal and hit enter. After a bit, it asked me if I wanted to trust the connection, which I did by typing `yes` and hitting enter. It then asked me for my password which after typing in (note: nothing will show up when typing in your password) allowed me to connect successfully as seen below:
 
 Image Placeholder
 
