@@ -21,7 +21,7 @@ I selected "Git Bash" in order to tell VS Code to default to that setting whenev
 
 ![Image](week1images/open-terminal.png)
 
-I then proceeded to type `ssh cs15lwi23awg@ieng6.ucsd.edu` into the terminal and hit enter. After a bit, it asked me if I wanted to trust the connection, which I did by typing `yes` and hitting enter. It then asked me for my password which after typing in (note: nothing will show up when typing in your password) allowed me to connect successfully as seen below:
+I then proceeded to type `ssh cs15lwi23awg@ieng6.ucsd.edu` into the terminal and hit enter. It then asked me for my password which after typing in (note: nothing will show up when typing in your password) allowed me to connect successfully as seen below. Note: If it is the first time trying a remote connection, it will ask if you want to trust the source. Simply type `yes` to allow it.
 
 ![Image](week1images/logged-in.png)
 
