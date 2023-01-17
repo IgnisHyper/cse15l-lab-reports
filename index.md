@@ -1,4 +1,2 @@
-## Markdown Shenanigans
-_This is tilted text_
-__This is bold text__
-[Click me to go to YouTube!](https://youtube.com)
+## Lab Reports
+[Week 1](https://ignishyper.github.io/cse15l-lab-reports/week-1-lab-report)
