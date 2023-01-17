@@ -21,9 +21,11 @@ I selected "Git Bash" in order to tell VS Code to default to that setting whenev
 
 ![Image](week1images/open-terminal.png)
 
-I then proceeded to type `ssh cs15lwi23awg@ieng6.ucsd.edu` into the terminal and hit enter. It then asked me for my password which after typing in (note: nothing will show up when typing in your password) allowed me to connect successfully as seen below. Note: If it is the first time trying a remote connection, it will ask if you want to trust the source. Simply type `yes` to allow it.
+I then proceeded to type `ssh cs15lwi23awg@ieng6.ucsd.edu` into the terminal and hit enter. It then asked me for my password which after typing in (note: nothing will show up when typing in your password) allowed me to connect successfully as seen below.
 
 ![Image](week1images/logged-in.png)
+
+Note: If it is the first time trying a remote connection, it will ask if you want to trust the source. Simply type `yes` to allow it.
 
 ## Running Commands
 After successfully connecting, I decided to run the `ls` command so that I could see everything in the current directory. I was met with only one item:
