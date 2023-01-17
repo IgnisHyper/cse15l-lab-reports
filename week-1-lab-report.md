@@ -11,7 +11,7 @@ To install visual studio code, I had to go to this [link](https://code.visualstu
 ## Remote Connection
 Since I was working on a Windows laptop, I first had to install git before I could try to remotely connect to any computer. I went to this [link](https://gitforwindows.org/) to install git for my laptop. After running the downloaded file and keeping all settings to their default selection, I had successfully installed git! Next, I had to set VS Code to use Bash as the default for terminal windows since that was the only way I could remotely connect. I opened VS Code and hit `Ctrl + Shift + P` at the same time to get this menu to open at the top of my tab:
 
-![Image](week1images/perferences-menu.png)
+![Image](week1images/preferences-menu.png)
 
 In this menu, I typed "Select Default Profile" and selected it. It opened another menu that looked like this:
 
