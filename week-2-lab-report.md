@@ -1,6 +1,6 @@
 # Part 1 - Server
 ## StringServer Code
-![Code Image]("week2images/stringservercode.png)
+![Code Image](week2images/stringservercode.png)
 
 ## Using `add-message`
 ![Message 1 Image](week2images/firstmessage.png)
