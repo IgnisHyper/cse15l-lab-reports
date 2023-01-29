@@ -29,6 +29,37 @@ The first method called is the `handleRequest` method in the `StringHandler` cla
 Overall, the only field changed in the class was `message`, which was changed from `"Hello"` to `"Hello\nHow are you"`.
 
 # Part 2 - Bugs
+Selected Bug: `reverseInPlace` method in the `ArrayExamples` class.
+
+Failure-Inducing Input:
+
+```
+import static org.junit.Assert.*;
+
+public class ArrayTests{
+  @Test
+  public void testReverseInPlace(){
+    int[] badInput = {1, 2, 3, 4, 5, 6};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{6, 5, 4, 3, 2, 1}, input1);
+  }
+}
+```
+
+Successful Input:
+
+```
+import static org.junit.Assert.*;
+
+public class ArrayTests{
+  @Test
+  public void testReverseInPlace(){
+    int[] goodInput = {1};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{1}, input1);
+  }
+}
+```
 
 # Part 3 - Something Learned
 Mainly in week 2, I learned a lot more about webpages, URL's, and the ability for Java to host a webserver. I was previously aware of the "different parts" of a URL, but I didn't know what their names such as "query" and "path". I was also unaware that Java alone could be used to host a webserver on its own. I also learned about different parameters of the `javac` command and the `java` command.
