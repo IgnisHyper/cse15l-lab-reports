@@ -13,7 +13,5 @@ The first method called is the `handleRequest` method in the `StringHandler` cla
 - Third `if` statement: compares the first string in the `query` array with `"s"` by using the `equalsIgnoreCase` method with argument `"s"`.
 - Fourth `if` statement: no methods called, checks length of `query` array.
 - Fifth `if` statement: instance variable `message` is checked to see if empty by using the `equalsIgnoreCase` method with argument `""`. Since this is true for this query, `"Hello"` is added to the instance variable `message`, making `message = "Hello"`. 
-
-In the first `if` statment, the first method called is `getPath` from the `url` object, which returns the value of `"/add-message"`. This string is then compared with the `equalsIgnoreCase` method with argument `"/add-message"`.
 ### `/add-message?s=How are you`
 ![Message 2 Image](week2images/secondmessage.png)
