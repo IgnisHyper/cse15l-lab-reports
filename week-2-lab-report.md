@@ -27,3 +27,8 @@ The first method called is the `handleRequest` method in the `StringHandler` cla
 - Fifth `if` statement: instance variable `message` is checked to see if empty by using the `equalsIgnoreCase` method with argument `""`. Since this is false for this query, `"\n" + "How are you"` is added to the instance variable `message`, making `message = "Hello\nHow are you"`. 
 
 Overall, the only field changed in the class was `message`, which was changed from `"Hello"` to `"Hello\nHow are you"`.
+
+# Part 2 - Bugs
+
+# Part 3 - Something Learned
+Mainly in week 2, I learned a lot more about webpages, URL's, and the ability for Java to host a webserver. I was previously aware of the "different parts" of a URL, but I didn't know what their names such as "query" and "path". I was also unaware that Java alone could be used to host a webserver on its own. I also learned about different parameters of the `javac` command and the `java` command.
