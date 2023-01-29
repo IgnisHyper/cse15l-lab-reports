@@ -31,7 +31,7 @@ Overall, the only field changed in the class was `message`, which was changed fr
 # Part 2 - Bugs
 Selected Bug: `reverseInPlace` method in the `ArrayExamples` class.
 
-Failure-Inducing Input:
+### Failure-Inducing Input
 
 ```
 import static org.junit.Assert.*;
@@ -46,7 +46,7 @@ public class ArrayTests{
 }
 ```
 
-Successful Input:
+### Successful Input
 
 ```
 import static org.junit.Assert.*;
@@ -60,6 +60,38 @@ public class ArrayTests{
   }
 }
 ```
+
+### Symptom
+
+![Testing Result](week2images/bugtesting.png)
+
+### Bug Fix
+Original Code (Sourced from `ArrayExamples.java` in Week 3 lab)
+
+```
+public class ArrayExamples {
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+Fixed Code
+
+```
+public class ArrayExamples {
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length / 2; i += 1) {
+      int temp = arr[i]
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+```
+The original code aims to loops through the array and assign the current value with the value located the same index away form the end of the array. The problem arises once the loop reaches the halfway point. For values located in the indices after the halfway point, the loop tries to assign values from the first half to the second half. However, the first half values were already reassigned by the loop in the first half, meaning the values will match for all pairings. Since there is no temporary storage for the first half of the array, the second half is never properly set.
 
 # Part 3 - Something Learned
 Mainly in week 2, I learned a lot more about webpages, URL's, and the ability for Java to host a webserver. I was previously aware of the "different parts" of a URL, but I didn't know what their names such as "query" and "path". I was also unaware that Java alone could be used to host a webserver on its own. I also learned about different parameters of the `javac` command and the `java` command.
