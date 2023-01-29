@@ -76,6 +76,7 @@ public class ArrayExamples {
       arr[i] = arr[arr.length - i - 1];
     }
   }
+}
 ```
 
 Fixed Code
@@ -90,6 +91,7 @@ public class ArrayExamples {
       arr[arr.length - i - 1] = temp;
     }
   }
+}
 ```
 The original code aims to loops through the array and assign the current value with the value located the same index away form the end of the array. The problem arises once the loop reaches the halfway point. For values located in the indices after the halfway point, the loop tries to assign values from the first half to the second half. However, the first half values were already reassigned by the loop in the first half, meaning the values will match for all pairings. Since there is no temporary storage for the first half of the array, the second half is never properly set.
 
