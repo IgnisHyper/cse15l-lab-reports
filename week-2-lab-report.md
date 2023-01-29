@@ -38,7 +38,7 @@ import static org.junit.Assert.*;
 
 public class ArrayTests{
   @Test
-  public void testReverseInPlace(){
+  public void testReverseInPlace1(){
     int[] badInput = {1, 2, 3, 4, 5, 6};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{6, 5, 4, 3, 2, 1}, input1);
@@ -53,7 +53,7 @@ import static org.junit.Assert.*;
 
 public class ArrayTests{
   @Test
-  public void testReverseInPlace(){
+  public void testReverseInPlace2(){
     int[] goodInput = {1};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{1}, input1);
