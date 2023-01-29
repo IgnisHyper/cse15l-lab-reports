@@ -13,5 +13,7 @@ The first method called is the `handleRequest` method in the `StringHandler` cla
 - Third `if` statement: compares the first string in the `query` array with `"s"` by using the `equalsIgnoreCase` method with argument `"s"`.
 - Fourth `if` statement: no methods called, checks length of `query` array.
 - Fifth `if` statement: instance variable `message` is checked to see if empty by using the `equalsIgnoreCase` method with argument `""`. Since this is true for this query, `"Hello"` is added to the instance variable `message`, making `message = "Hello"`. 
+
+Overall, the only field changed in the class was `message`, which was changed from `""` to `"Hello"`.
 ### `/add-message?s=How are you`
 ![Message 2 Image](week2images/secondmessage.png)
