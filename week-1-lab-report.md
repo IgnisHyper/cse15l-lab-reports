@@ -1,7 +1,15 @@
 # Week 1 Lab Report - Abel Preciado
 ***
 ## Getting My CSE 15L Account Username
-In order to get my CSE 15L account, I proceeded to this [link](https://sdacs.ucsd.edu/~icc/index.php). After logging in with my username and PID, the site listed out my CSE 15L account under "Additional Accounts". After setting the password for the account by clicking on the account name and using the Global Password Change tool, I had full access to my CSE 15L account.
+In order to get my CSE 15L account, I proceeded to this [link](https://sdacs.ucsd.edu/~icc/index.php). After logging in with my username and PID, the site listed out my CSE 15L account under "Additional Accounts". I opened the Global Password Change tool and entered my CSE 15L account details along with my PID to reset the password.
+
+![Password Change Tool](week1images/resettool.png)
+
+Note that while you are "resetting" the password, you are actually setting the password for the first time. After setting the password for the account by clicking on the account name and using the Global Password Change tool, I had full access to my CSE 15L account. On the next page, I was able to enter my current student account password as my "Current Password" and "New Password". 
+
+![Changing Password](week1images/changingpassword.png)
+
+I also made sure to change the dropdown for "Change MyTritonLink password?" to "No". In order to ensure the system allowed my password change, I clicked the box labeled "Confirm Password" and hit `Enter` on my keyboard. Afterwards, I had full access to my account and was able to use it for later steps after a brief wait of 15 minutes.
 
 ## Installing Visual Studio Code (VS Code)
 To install visual studio code, I had to go to this [link](https://code.visualstudio.com/) which would allow me to install the correct version for my laptop. I had already done this before, so I didn't need to install it at the time. I opened up VS Code from my desktop just to confirm that I still had it installed correctly. When I opened the application, I was met with this screen:
