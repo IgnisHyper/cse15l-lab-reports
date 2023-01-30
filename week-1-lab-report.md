@@ -5,7 +5,7 @@ In order to get my CSE 15L account, I proceeded to this [link](https://sdacs.ucs
 
 ![Password Change Tool](week1images/resettool.png)
 
-Note that while you are "resetting" the password, you are actually setting the password for the first time. After setting the password for the account by clicking on the account name and using the Global Password Change tool, I had full access to my CSE 15L account. On the next page, I was able to enter my current student account password as my "Current Password" and "New Password". 
+Note that while you are "resetting" the password, you are actually setting the password for the first time. On the next page, I was able to enter my current student account password as my "Current Password" and "New Password". 
 
 ![Changing Password](week1images/changingpassword.png)
 
@@ -43,6 +43,8 @@ After successfully connecting, I decided to run the `ls` command so that I could
 I also ran `pwd` to see where I was on the system, which returned me with the absolute path `/home/linux/ieng6/cs15lwi23/cs15lwi23awg`. I also ran `ls -lat` and `ls -a` to see the differences between those two commands and the standard `ls` command:
 
 ![Image](week1images/various-ls-commands.png)
+
+The `ls -a` command showed all files in the directory, such as the current directory `.`, the home directory `..`, and many files that were hidden from the standard `ls` command which were all indicated with a `.` at the start of their name. The `ls -lat` command showed all files, including hidden ones. It also showed dates for all the files along with my account name next to most lines, which I assume indicates that I own or my account created the files. The lines were also sorted by date.
 
 To make a new directory, I used the `mkdir hello` command. After running that command, I checked to see if the directory was created with the `ls` command, which I could see was the case:
 
