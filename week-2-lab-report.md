@@ -1,3 +1,5 @@
+# Week 2 Lab Report
+
 # Part 1 - Server
 ## StringServer Code
 ![Code Image](week2images/stringservercode.png)
