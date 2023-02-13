@@ -75,7 +75,7 @@ de Fora church, the Feira da Ladra (“Thieves’ Market”) is held on Tuesday 
 
 This command made the `grep` command search the file "Portugal-WhatToDo.txt" for the word "fun" and return the lines that contained "fun" along with the line number. This command is useful to allow me to easily find the lines that contain "fun" in the file itself and read lines before and after.
 
-###
+### `grep something`
 
 ```
 
@@ -89,7 +89,7 @@ Placeholder
 
 Placeholder
 
-###
+### `grep something`
 
 ```
 
