@@ -1,6 +1,7 @@
 # Week 4/5 Lab Report - Abel Preciado
 ## `grep` command options
 ### `grep -rl <text>`
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 ```
 $ grep -rl "Poland"
 .git/index
@@ -37,7 +38,7 @@ written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt
 This command made the `grep` command search recursively within various directories and text files for the text "Brazil" and returned the name of the files that contained "Brazil". Once again, we avoid having to use `find` to get a list of all text files while keeping the terminal relatively clean since only file names are printed to the console.
 
 ### `grep -c <text> <file>`
-
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 ```
 $ grep -c "Cuba" ./written_2/travel_guides/berlitz2/Cuba-History.txt 
 25
@@ -52,19 +53,27 @@ $ grep -c "gold" ./written_2/travel_guides/berlitz2/California-History.txt
 
 This command made the `grep` command search the file "California-History.txt" and return the count of the number of lines that contained the word "gold". This allows us to potentially see how often "gold" is discussed in the history of California by comparing this number to the total number of lines in the file.
 
-###
-
+### `grep -n <text> <file>`
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+```
+$ grep -n "music" ./written_2/travel_guides/berlitz2/Paris-WhatToDo.txt 
+6:However delightful, sightseeing in Paris is only part of the pleasure of a visit. The shops, ranging from high-fashion salons and small specialty shops to flea markets, are among the best in the world. The town also provides plenty of opportunities for both fitness enthusiasts and fans of spectator sports. Dining (see page 92) is, of course, serious 
+business in Paris. In terms of organized entertainment, Paris offers a wide array of theater, movies, and every kind of music.
+33:The French take their jazz seriously, and Paris has many jazz clubs. Hot Brass (La Villette) and The New Morning (rue des Petites-Ecuries) attract big American and European musicians, while Le Dunois (rue Dunois) is an intimate place, cultivating more avant-garde music. The Lionel Hampton club at the Méridien Etoile (Porte Maillot) has a full program of guest performers. The old-established Caveau de la Huchette (rue de la Huchette in St-Germain-des-Prés) opens every night at 9:30pm for listening and dancing to a small combo or big band swing or bebop. Entrance prices of around 60–120F may include your first drink; extra drinks cost 30–60F.
+34:In the realm of classical music, Paris has come back into its own, with many fine concerts at Salle Pleyel and Théâtre des Champs-Elysées, opera at the new Opéra-Bastille, and the ballet at the Opéra-Garnier. In all cases, some seats are reasonably priced, though they tend to go quickly. Look out for free concerts in churches.
 ```
 
-```
-
-Placeholder
+This command made the `grep` command search the file "Paris-WhatToDo.txt" for the word "music" and return the lines that contained "music" along with the line number. This command is useful since it allows me to easily identify the lines in the file so that I can read lines before/after the searched text for further context. 
 
 ```
-
+$ grep -n "fun" ./written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt 
+9:Brass, bronze, and copper. Candlesticks, pots and pans, old-fashioned scales, bowls, and trays can be found across Portugal. Cataplanas make a delightful decorative or functional souvenir. The Moorish tradition of producing cooking utensils from beaten metal is maintained in the town of Loulé, in the Algarve.
+20:Street markets (feiras or mercados) are fun for their atmosphere, and the goods for sale include all kinds of crafts, clothing, and food items. In Lisbon, behind São Vicente 
+de Fora church, the Feira da Ladra (“Thieves’ Market”) is held on Tuesday and Saturday. Barcelos holds the country’s largest weekly market. The National Craft Fair in Vila do Conde, near Porto (July and August), and the Craft Fair in Lagoa, in the Algarve (August), both display crafts from all over the country.
+53:Portugal dos Pequinitos, in Coimbra (see page 53), is a theme park of miniatures of Portugal’s most famous buildings. The narrow-gauge railways of the north also make a fun day-trip.
 ```
 
-Placeholder
+This command made the `grep` command search the file "Portugal-WhatToDo.txt" for the word "fun" and return the lines that contained "fun" along with the line number. This command is useful to allow me to easily find the lines that contain "fun" in the file itself and read lines before and after.
 
 ###
 
