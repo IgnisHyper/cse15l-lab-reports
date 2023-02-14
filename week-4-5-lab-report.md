@@ -36,7 +36,7 @@ written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt
 
 This command made the `grep` command search recursively within various directories and text files for the text "Brazil" and returned the name of the files that contained "Brazil". Once again, we avoid having to use `find` to get a list of all text files while keeping the terminal relatively clean since only file names are printed to the console.
 
-Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+Source: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 ### `grep -c <text> <file>`
 ```
@@ -53,7 +53,7 @@ $ grep -c "gold" ./written_2/travel_guides/berlitz2/California-History.txt
 
 This command made the `grep` command search the file "California-History.txt" and return the count of the number of lines that contained the word "gold". This allows us to potentially see how often "gold" is discussed in the history of California by comparing this number to the total number of lines in the file.
 
-Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+Source: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 ### `grep -n <text> <file>`
 ```
@@ -76,7 +76,7 @@ de Fora church, the Feira da Ladra (“Thieves’ Market”) is held on Tuesday 
 
 This command made the `grep` command search the file "Portugal-WhatToDo.txt" for the word "fun" and return the lines that contained "fun" along with the line number. This command is useful to allow me to easily find the lines that contain "fun" in the file itself and read lines before and after.
 
-Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/ 
+Source: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 ### `grep -rwil "love" <directory>`
 ```
