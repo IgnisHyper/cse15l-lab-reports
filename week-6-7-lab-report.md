@@ -13,7 +13,7 @@ The `ssh cs15lwi23awg@ieng6.ucsd.edu` command was the first command after hittin
 
 Keys Pressed: `<control> + r`, `git c`, `<enter>`
 
-Similar to the previous step, I used `<control> + r` to search for a previously entered command that matched my input of `git c`. It found the clone command, `git clone git@github.com:IgnisHyper/lab7.git` that was previously used to clone my forked repository. All I had to do was hit `<enter>` to execute the command.
+Similar to the previous step, I used `<control> + r` to search for a previously entered command that matched my input of `git c`. It found the clone command, `git clone git@github.com:IgnisHyper/lab7.git` that was previously used to clone my forked repository. All I had to do was hit `<enter>` to execute the command and the repository was cloned.
 
 ## Step 6
 
@@ -38,7 +38,7 @@ I used the tab auto-complete to automatically fill the file name for the `nano` 
 
 Keys Pressed: `<up><up><up><enter>`, `<up><up><up><enter>`
 
-Since the commands to compile and run the tests were just ran, I used three presses of the `<up>` key to get to the command through the history. After the compile command was ran, the `java` command moves to its place in the history which is why we can use the same number of key presses of `<up>` to get to the command.
+Since the commands to compile and run the tests were just ran, I used three presses of the `<up>` key to get to the command through the history. After the compile command was ran, the `java` command moves to its place in the history which is why we can use the same number of key presses of `<up>` to get to the command. These commands allowed me to show that the tests were now successful after the `nano` edit in the last step.
 
 ## Step 9
 
@@ -46,5 +46,5 @@ Since the commands to compile and run the tests were just ran, I used three pres
 
 Keys Pressed: `git add L<tab>.j<tab> <enter>`, `git commit -m "hehe" <enter>`, `git push <enter>`
 
-Since these commands are shorter and easy to remember and type, I manually typed in the commands with the exception of using the auto-complete to fill in the `ListExamples.java` in the `git add` command.
+Since these commands are shorter and easy to remember and type, I manually typed in the commands with the exception of using the auto-complete to fill in the `ListExamples.java` in the `git add` command. After these commands, my changes were pushed to my forked repository, which I could see in my browser.
 
