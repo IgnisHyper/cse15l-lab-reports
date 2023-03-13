@@ -6,7 +6,7 @@ This lab was focused on speeding up the process of working in the terminal. We w
 ### How I got under 15 seconds
 To minimize the amount of time spent, I minimized the amount of time spent actually typing commands. After my section tutor informed us of a student in another section who managed to get under 30 seconds through command chaining, I consulted ChatGPT on how that was done in bash. ChatGPT returned with this information:
 
-Image Placeholder :D
+![Chaining commands](report5images/command_chain.png)
 
 With that in mind, I started working on chaining commands together. I knew that using `ssh` to login to the server would have to remain its own command, since if I tried to chain commands after `ssh`, they wouldn't be executed on the remote server and instead would wait until I logged out and returned to my local terminal. Additionally, I wasn't aware of a way to alter text directly in the command line, so I would still have to use `nano` to manually edit the file in step 7, but steps 5-6 and 8-9 I could chain together, reducing the total number of commands ran to just 4 commands, instead of the previous 11 commands. The commands I ran are listed below:
 * `ssh cs15lwi23awg@ieng6.ucsd.edu`
@@ -16,11 +16,11 @@ With that in mind, I started working on chaining commands together. I knew that 
 
 These commands allowed me to reduce my time quite a bit, but I still wasn't satisfied. I returned to ChatGPT and asked it about altering text directly in the command line without having to use `nano` or `vim`. ChatGPT replied with this response:
 
-Image Placeholder D:
+![sed command](report5images/sed_command.png)
 
 The `sed` command was the command that seemed most fitting for my purposes. I proceeded to further ask ChatGPT about how to alter text on a specific line:
 
-Another image placeholder D:
+![sed line](report5images/sed_line.png)
 
 After some experiments with changing lines using `sed`, along with determining the proper line numbers, I came up with the command `sed -i '43s/.*/      index2 += 1;/' ListExamples.java` which successfully altered the buggy line in `ListExamples.java` to a fixed line, meaning I would no longer need to use `nano` to manually fix the bug! With that in mind, I managed to just have to run two commands:
 * `ssh cs15lwi23awg@ieng6.ucsd.edu`
@@ -33,7 +33,11 @@ Using a `bash` script would have been helpful for two main reasons:
 1. It would be easier to debug
 2. It would be easier to read
 
-I decided to not create a `bash` script for running the `ssh` command, since its a singular command that I have to run locally. The second, longer, command I would definitely place in a `bash` script. I went ahead and logged onto the remote server to do this actually. I started by running the command `touch speedrun.sh` to create a `bash` script where I could place all my commands. I then proceeded to copy the long command from my command history (found using the `history` command). I opened `speedrun.sh` using `nano speedrun.sh` and pasted the long command. It sadly pasted as one long line, so I went through and broke apart the line for readability. I ran `<ctrl> + o` and `<ctrl> + x` to save my script and quit `nano`. I ran the script once just to place it in my command history and then reset my account and fork so that I could test it. My new command list would be as follows:
+I decided to not create a `bash` script for running the `ssh` command, since its a singular command that I have to run locally. The second, longer, command I would definitely place in a `bash` script. I went ahead and logged onto the remote server to do this actually. I started by running the command `touch speedrun.sh` to create a `bash` script where I could place all my commands. I then proceeded to copy the long command from my command history (found using the `history` command). I opened `speedrun.sh` using `nano speedrun.sh` and pasted the long command. It sadly pasted as one long line, so I went through and broke apart the line for readability. I ran `<ctrl> + o` and `<ctrl> + x` to save my script and quit `nano`. I ran the script once just to place it in my command history and then reset my account and fork so that I could test it. My new `bash` script was as follows:
+
+![speedrun script](report5images/speedrun_script.png)
+
+My new command list would be as follows:
 * `ssh cs15lwi23awg@ieng6.ucsd.edu`
 * `bash speedrun.sh`
 
